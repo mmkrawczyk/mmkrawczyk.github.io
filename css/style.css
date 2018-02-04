@@ -64,8 +64,7 @@ body {
   background-image: url(../img/champagne-overflow.gif); 
     background-repeat: no-repeat; 
     background-position: center;
-    background-attachment: unset; 
-    position: fixed;   
+    background-attachment: initial; 
     webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
