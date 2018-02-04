@@ -54,6 +54,27 @@ body {
 	background-attachment: fixed;
 	background-position: center;
 }
+
+@media only screen and (max-width: 500px) {
+    html, body {
+        height: 100%;
+    }
+	
+.background-img {
+  background-image: url(../img/champagne-overflow.gif); 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+    width:100%; 
+}  
+}
+
+ 
 .bg-light {
     background-color: #f8f9fa54!important;
 }
